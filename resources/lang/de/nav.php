@@ -1,0 +1,19 @@
+<?php
+
+return [
+
+    // Navigation
+    'wall' => 'Pinnwand',
+    'posts' => 'Beiträge',
+    'streaming' => 'Streaming',
+    'world' => 'Welt',
+    'search_influencer' => 'Influencer suchen',
+    'feed' => 'Feed',
+    'my' => 'Mein',
+
+    // Dashboard / Panel
+    'control_panel' => 'Kontrollzentrum',
+    'add_post' => 'Beitrag hinzufügen',
+    'messages' => 'Nachrichten',
+
+];

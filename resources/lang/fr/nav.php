@@ -1,0 +1,19 @@
+<?php
+
+return [
+
+    // Navigation
+    'wall' => 'Mur',
+    'posts' => 'Publications',
+    'streaming' => 'Streaming',
+    'world' => 'Monde',
+    'search_influencer' => 'Rechercher un influenceur',
+    'feed' => 'Fil d’actualité',
+    'my' => 'MON',
+
+    // Dashboard / Panel
+    'control_panel' => 'Panneau de contrôle',
+    'add_post' => 'Ajouter une publication',
+    'messages' => 'Lettres',
+
+];

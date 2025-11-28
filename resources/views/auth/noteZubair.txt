@@ -1,0 +1,42 @@
+Register business FORM :
+
+Datos personales de dueño Business Account:
+Nombre y apellidos,
+DNI/ID,
+Nacionalidad,
+Dirección,
+Email / Correo electrónico,
+Numero de teléfono real.
+
+Select: 
+I am an Influencer or User (If they select influencer, they shoudln't fill more info)
+
+I am a Business Freelancer physic person 
+I am Business Company
+I am an Agency representation of Talents
+
+
+If they select 3 of business types:
+
+ -> MESSAGE = "Hello! Dear business man. 
+In that social network you can't have an account of user or influencer, but yes you will have a Business Account for run your Ads. 
+We gonna close that Influencer/user account that you created in 15 laboral days. 
+Thanks for be here and respect the rules of Superworld, 
+Please, register as a Business Account."
+
+ -> BACKEND = Send them to the Register Page of Business saccount Saving that previous information that they filled.
+
+
+
+//THIS IS A PAGE OF REGISTER.PHP APART OF MODAL IF THEY SELECT FREELANCER, BUSINESS OR AGENCY REPRESENTATION:
+Datos de Empresa / Agencia: 
+Name Company / Nombre Copañía - Razón social,
+CIF/EIN/DNI,
+Fiscal Tax % (VAT/IVA):
+Country:
+Addresse:
+Email:
+Real Phone number:
+
+-> MESSAGE = "REGISTER SUCCEFULLY, OUR TEAM WILL CHECK YOUR INFORMATION AND WILL BE ACTIVATED IN LESS OF 48 HOURS.
+-> RECEIVE A NOTIFICATION BY EMAIL TO: martinherradadavid@gmail.com
