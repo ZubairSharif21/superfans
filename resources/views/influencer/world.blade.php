@@ -1832,17 +1832,17 @@ $logos = [
         </p>
 
         <div style="margin-top:10px;">
-          <a href="#">
+          <a href="https://pay.hotmart.com/Q103186011Q?off=ayclhy7f&checkoutMode=10">
             <img src="{{ url('assets/images/VUELING_Flyer_Aventura_para_ser_Famosos-SUPERMUNDO.png') }}" class="logo hoverFlyer"
               style="display:inline-block; width:29%; margin:4px; border-radius:2px; border:4px solid #222;">
           </a>
 
-          <a href="#">
+          <a href="https://pay.hotmart.com/Q103186011Q?off=ayclhy7f&checkoutMode=10">
             <img src="{{ url('assets/images/American_Airlines_Flyer_Aventura_para_ser_Famosos-SUPERMUNDO.png') }}" class="logo hoverFlyer"
               style="display:inline-block; width:29%; margin:4px; border-radius:2px; border:4px solid #222;">
           </a>
 
-          <a href="#">
+          <a href="https://pay.hotmart.com/Q103186011Q?off=ayclhy7f&checkoutMode=10">
             <img src="{{ url('assets/images/IBERIA_Flyer_Aventura_para_ser_Famosos-SUPERMUNDO.png') }}" class="logo hoverFlyer"
               style="display:inline-block; width:29%; margin:4px; border-radius:2px; border:4px solid #222;">
           </a>
