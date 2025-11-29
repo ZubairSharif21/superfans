@@ -772,11 +772,11 @@ padding: 0px;
                 <li>
                   <div class="wrapper">
                     <input type="text" class="influencer_search" placeholder="{{ __('nav.search_influencer') }}">
-                    <div class="wrapper_span">ðŸ”Ž</div>
+                    <div class="wrapper_span">🔎</div>
                   </div>
                   {{-- <div class="input-group" style="border: 2px solid #585858;margin-right: 10px;margin-left: 10px;max-width: 158px;margin-left: auto;margin-right: auto;">
 
-                    <span class="input-group-addon" id="search_influencer" style="padding: 0px;padding-left: 6px;padding-right: 6px;background: transparent;border: 0px;cursor: pointer;">ðŸ”Ž</span>
+                    <span class="input-group-addon" id="search_influencer" style="padding: 0px;padding-left: 6px;padding-right: 6px;background: transparent;border: 0px;cursor: pointer;">🔎</span>
 
                     
 
