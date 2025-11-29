@@ -89,7 +89,7 @@ return [
 
     'followers_requirement' => 'If you do not have at least :count followers...',
     'normal_account' => 'Normal Account',
-    'warning_message' => 'We periodically screen new users. If we see that you are not really famous on social media, this account will be blocked. Furthermore, SUPERMUNDO does not accept companies as users; it is an exclusive space for individuals. However, there is an Ad Center for companies.',
+    'warning_message' => 'We periodically screen new users. If we see that you are not really famous on social media, this account will be blocked. Furthermore, SUPERWORLD does not accept companies as users; it is an exclusive space for individuals. However, there is an Ad Center for companies.',
     'go_back' => 'Go Back',
     'yes_im_popular' => 'Yes, I’m already popular',
     'soc_empresa' => 'We are a Business',
