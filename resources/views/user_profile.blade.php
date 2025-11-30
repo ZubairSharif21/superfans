@@ -714,7 +714,7 @@
                     </ul>
                     <br>
 
-                    <p><small>&copy; 2021-2025 @if ($user->footer_name_username == 'username')
+                    <p><small><span><a href="https://live.superfanss.app/super-ads" target="_blank" style="color:gray !important;">🏢: SUPER ADS CENTER</a> </span><br>&copy; 2021-2025 @if ($user->footer_name_username == 'username')
                                 <span
                                     style="display: inline-block;">@</span>{{ $user->username_URL }}
                             @else
@@ -3027,7 +3027,9 @@ $logos = [
 @endphp
 
 <img src="{{ asset('assets/images/' . $logo) }}" style="width: 11.1em;">
-                    <p>© 2021-2025 @if ($user->footer_name_username == 'username')
+<br><br>
+                    <p><b><a href="https://live.superfanss.app/super-ads" target="_blank" style="color:gray !important;font-family: "Anton", sans-serif !important;
+        font-weight: 550 !important;">🏢: SUPER ADS CENTER</a></b><br>© 2021-2025 @if ($user->footer_name_username == 'username')
                                 <span
                                     style="display: inline-block;">@</span>{{ $user->username_URL }}
                             @else

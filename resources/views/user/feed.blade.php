@@ -1725,8 +1725,9 @@ $logos = [
 @endphp
 
 <img src="{{ asset('assets/images/' . $logo) }}" style="width: 11.1em;">
-
-            <p><b><a href="https://live.superfanss.app/super-ads" target="_blank" style="color:gray !important;">🏢: SUPER ADS CENTER</a> </b><br>© 2021-2025 @if(Auth::user()->footer_name_username == "username") <span style="display: inline-block;">@</span>{{Auth::user()->username_URL}} @else {{Auth::user()->name}} {{Auth::user()->surname}} @endif <br>
+<br><br>
+                    <p><b><a href="https://live.superfanss.app/super-ads" target="_blank" style="color:gray !important;font-family: "Anton", sans-serif !important;
+        font-weight: 550 !important;">🏢: SUPER ADS CENTER</a></b><br>© 2021-2025 @if(Auth::user()->footer_name_username == "username") <span style="display: inline-block;">@</span>{{Auth::user()->username_URL}} @else {{Auth::user()->name}} {{Auth::user()->surname}} @endif <br>
               {{ __('footer.all_rights_reserved') }} <br>
               {{ __('footer.powered_by') }} <a href="https://live.superfanss.app/world">SUPERFANSS.APP</a></p>
           </center>

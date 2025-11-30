@@ -739,7 +739,7 @@
                 <!--<li><a href="https://www.twitch.com/" target="_blank"><i class="icon-twitch" style="font-size: 2.1em;"></i></a></li>
                     <li><a href="https://www.youtube.com/" target="_blank"><i class="icon-youtube" style="font-size: 2.1em;"></i></a></li>-->
             </ul><br>
-            <p><small>&copy; 2021-2025  @if($user->footer_name_username == "username") <span style="display: inline-block;">@</span>{{$user->username_URL}} @else {{$user->name}} {{$user->surname}} @endif  <br>{{ __('footer.all_rights_reserved') }}</span> <span>{{ __('footer.powered_by') }} <a href="https://live.superfanss.app/world">SUPERFANSS.APP</a> </span> </small></p>
+            <p><small><span><a href="https://live.superfanss.app/super-ads" target="_blank" style="color:gray !important;">🏢: SUPER ADS CENTER</a> </span><br>&copy; 2021-2025  @if($user->footer_name_username == "username") <span style="display: inline-block;">@</span>{{$user->username_URL}} @else {{$user->name}} {{$user->surname}} @endif  <br>{{ __('footer.all_rights_reserved') }}</span> <span>{{ __('footer.powered_by') }} <a href="https://live.superfanss.app/world">SUPERFANSS.APP</a> </span> </small></p>
         </div>
 @php
     $currentLocale = app()->getLocale();
