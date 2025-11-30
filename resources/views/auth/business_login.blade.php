@@ -267,6 +267,8 @@ button#sendlogin:focus{
             box-shadow: none !important;}
             
 /* SUBTITULO SUPER ADS CENTER */        
+a{
+        text-decoration: none !important;}
 h6 {
     font-family: "Anton", sans-serif !important;
     font-weight: 550 !important;
