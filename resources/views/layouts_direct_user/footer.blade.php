@@ -118,9 +118,15 @@
             </div>
 
             <div class="modal-body text-center py-4">
-                <h3 style="font-weight:800;">⚠️ SUPER ADS</h3>
+                <h3 style="font-weight:800;">⚠️We so sorry!</h3>
                 <p style="font-size:16px;">
-                    Super Ads is currently under development and will be available soon.
+                    
+
+Our business management SUPER ADS CENTER it's under maintainance.
+We will have it soon operative for you!
+
+All the current Ads are paused. You'll get a bonus $200 in Ads if you've been afected.
+Thanks for your trust in Super World.
                 </p>
             </div>
 
