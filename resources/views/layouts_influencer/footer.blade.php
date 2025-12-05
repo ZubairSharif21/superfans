@@ -283,8 +283,51 @@ function copyReferralLink() {
     alert('Username copied!');
 }
 </script>
+<!-- SUPER ADS UNDER DEVELOPMENT MODAL -->
+<div class="modal fade" id="superAdsDevModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="background:#8a2be2; border:none; color:#fff; border-radius:12px;">
+
+            <div class="modal-header" style="border: none; padding: 0;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                    style="font-size:32px; color:#fff; opacity:1; margin-left:auto; padding:15px;    position: relative;
+    z-index: 9999999;">
+                    <span aria-hidden="true">✖</span>
+                </button>
+            </div>
+
+            <div class="modal-body text-center py-4">
+                <h3 style="font-weight:800;">⚠️ SUPER ADS</h3>
+                <p style="font-size:16px;">
+                    Super Ads is currently under development and will be available soon.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@if(session('super_ads_message'))
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        $("#superAdsDevModal").modal("show");
+    });
+</script>
+@endif
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a").forEach(link => {
+        if (link.href.includes("/super-ads")) {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                $("#superAdsDevModal").modal("show");
+            });
+        }
+    });
+});
+</script>
 
 {{-- Payment modal (Message Show) --}}
 @if(Session::get('payment_message'))

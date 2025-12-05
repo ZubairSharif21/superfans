@@ -10,6 +10,7 @@ class RestrictSuperAdsCenterAccess
 {
     public function handle(Request $request, Closure $next)
     {
+        return redirect('/world')->with('super_ads_message', 'Super Ads is under development');
 
         if (!Auth::check()) {
             return redirect('/login');
